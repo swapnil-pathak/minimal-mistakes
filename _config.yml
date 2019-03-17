@@ -111,13 +111,7 @@ author:
   bio              : "Graduate student @Northeastern university, pursuing Master of Science in Cybersecurity"
   location         : "Boston, MA"
   email            : "swapnil190296@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:swapnil190296@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://www.github.com/swapnil-pathak"
+  github           : "https://www.github.com/swapnil-pathak"
 
 
 
