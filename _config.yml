@@ -113,10 +113,7 @@ author:
   github           : "swapnil-pathak"
   linkedin         : "swapnil-pathak"
   info             : "I'm a cybersecurity enthusiast and a student with broad interests in computer systems, IoT and software security."
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://swapnil-pathak.github.com/minimal-mistakes"
+
 # Reading Files
 include:
   - .htaccess
