@@ -260,4 +260,17 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
+  <div class="author__content">
+    {% if author.info %}
+      <p class="author__bio" itemprop="description">
+        {{ author.info }}
+      </p>
+    {% endif %}
+  </div>
+  <img src="https://static.fsf.org/nosvn/associate/crm/2301082.png" class="img-thumbnail mx-auto my-2 d-block" alt="FSF" style="width: 80%;">
+	<span class="img-thumbnail mx-auto my-2 d-block" alt="htb" style="width: 90%;"><a href="https://www.hackthebox.eu/profile/77833"><script src="https://www.hackthebox.eu/badge/77833"></script></a></span>
+
+	<p class="text-muted">
+	   My HackTheBox badge
+  </p>
 </div>

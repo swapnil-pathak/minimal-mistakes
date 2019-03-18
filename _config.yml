@@ -109,11 +109,10 @@ author:
   name             : "Swapnil Pathak"
   avatar           : "/assets/images/swap.png"
   bio              : "Graduate student @Northeastern university, pursuing Master of Science in Cybersecurity"
-  location         : "Boston, MA"
   email            : "swapnil190296@gmail.com"
   github           : "swapnil-pathak"
-  linkedin         : "in/swapnil-pathak"
-
+  linkedin         : "swapnil-pathak"
+  info             : "I'm a cybersecurity enthusiast and a student with broad interests in computer systems, IoT and software security."
 
 # Reading Files
 include:
