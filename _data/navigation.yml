@@ -4,8 +4,8 @@ main:
     url: https://swapnil-pathak.github.io/minimal-mistakes
   - title: "Security Blog"
     url: https://swapnil-pathak.github.io/minimal-mistakes
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: https://swapnil-pathak.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
