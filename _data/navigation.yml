@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: https://swapnil-pathak.github.io/minimal-mistakes
-  - title: "Security Blog"
+  - title: "Blog"
     url: https://swapnil-pathak.github.io/minimal-mistakes/security_blog/
   - title: "About"
     url: https://swapnil-pathak.github.io/minimal-mistakes/about/
