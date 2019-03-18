@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://swapnil-pathak.github.io/minimal-mistakes
+  - title: "Security Blog"
+    url: https://swapnil-pathak.github.io/minimal-mistakes
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
