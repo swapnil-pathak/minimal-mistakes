@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Swapnil Pathak"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Swapnil Pathak"
 description              : "Graduate student @Northeastern university, pursuing Master of Science in Cybersecurity"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
