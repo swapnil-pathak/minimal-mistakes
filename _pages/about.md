@@ -16,6 +16,6 @@ I am interested in all things security. Specifically, computer systems and IoT. 
 
 I solve a lot of HackTheBox challenges and I will be updating walkthroughs and tricks to solve some of those challenges in my [Security Blog]()
 
-Stay tuned and watch the Updates section.
+Stay tuned and watch the [Updates]() section.
 
-Click here to view my CV
+Click here to view my [CV]()
