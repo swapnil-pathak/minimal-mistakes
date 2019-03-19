@@ -83,7 +83,7 @@ After exploring the FTP shell, I found two files `backup.mdb` and `Access Contro
 
 A little Google-Fu helped me to figure out what a `mdb` file was and how I could use command-line tools in kali to view the contents.
 
-```console
+````console
 htb@noone:~/Access$ mdb-tables backup.mdb
 acc_antiback acc_door acc_firstopen acc_firstopen_emp acc_holidays acc_interlock acc_levelset acc_levelset_door_group acc_linkageio acc_map acc_mapdoorpos acc_morecardempgroup acc_morecardgroup acc_timeseg acc_wiegandfmt ACGroup acholiday ACTimeZones action_log AlarmLog areaadmin att_attreport att_waitforprocessdata attcalclog attexception AuditedExc
 auth_group_permissions auth_message auth_permission <span style="color:red">auth_user</span> auth_user_groups auth_user_user_permissions base_additiondata base_appoption base_basecode base_datatranslation base_operatortemplate base_personaloption base_strresource base_strtranslation base_systemoption CHECKEXACT CHECKINOUT dbbackuplog DEPARTMENTS
@@ -97,7 +97,7 @@ id,username,password,Status,last_login,RoleID,Remark
 25,"admin","admin",1,"08/23/18 21:11:47",26,
 27,<span style="color:red">"engineer"</span>,<span style="color:red">"access4u@security"</span>,1,"08/23/18 21:13:36",26,
 28,<span style="color:red">"backup_admin"</span>,<span style="color:red">"admin"</span>,1,"08/23/18 21:14:02",26,
-```
+````
 
 Credentials found for some users. Now let's try to access the zip archive.
 
@@ -105,7 +105,7 @@ I tried to extract te=he archive on Linux, doesn't work. So, I downloaded it on 
 
 After some trial and error, `access4u@security` was the password for the archive. Found a `.pst` file. Again some Google-Fu and I found a way to read the file on linux.
 
-```console
+````console
 htb@noone:~/Access$ readpst 'Access Control.pst'
 
 htb@noone:~/Access$cat 'Access Control.mbox'
@@ -139,11 +139,11 @@ The password for the <span style="color:red">“security”</span> account has b
 Regards,
 
 John
-```
+````
 
 Great! So we have a set of credentials. That was it from FTP, onto the next service which is Telnet on port 23.
 
-```console
+````console
 htb@noone:~/Access$ telnet -l security 10.10.10.98
 Trying 10.10.10.98...
 Connected to 10.10.10.98.
@@ -181,7 +181,7 @@ Directory of C:\Users\security\Desktop
 
 C:\Users\security\Desktop>more user.txt
 f******************************8
-```
+````
 
 Excellent! We have our user flag. Onto root.
 
