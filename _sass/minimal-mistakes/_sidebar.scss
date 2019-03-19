@@ -63,7 +63,7 @@
 
   img {
     width: 100%;
-    
+
     &.emoji {
       width: 20px;
       height: 20px;
@@ -316,3 +316,9 @@
   }
 }
 
+.badges {
+  &.img {
+    width: 100%;
+    border: 1px solid $border-color;
+  }
+}
