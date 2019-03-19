@@ -1,7 +1,8 @@
 ---
 title:  "0ld is g0ld"
 date: 2019-02-05
-excerpt:  "This particular challenge is a good starter to your journey as a challenge solver! Take a moment to appreciate the beauty of "old" algorithms, without them we would not be able to build cyber security so much. This challenge will earn you 10 points which is not a lot but you got to start somewhere."
+tags: [challenges, misc]
+excerpt:  "This particular challenge is a good starter to your journey as a challenge solver! Take a moment to appreciate the beauty of old algorithms, without them we would not be able to build cyber security so much. This challenge will earn you 10 points which is not a lot but you got to start somewhere."
 ---
 This particular challenge is a good starter to your journey as a challenge solver! Take a moment to appreciate the beauty of "old" algorithms, without them we would not be able to build cyber security so much. This challenge will earn you 10 points which is not a lot but you got to start somewhere.
 
