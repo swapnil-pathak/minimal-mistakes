@@ -1,5 +1,6 @@
 ---
 title:  "HTB Invite code"
+categories: [hackthebox] 
 date: 2019-02-01
 excerpt:  "Unlinke many other CTF-like or Real-world scenario based services, to start your arduous journey with HackTheBox, you will need to obtain an invite code to prove your worth. To get the ball rolling, here is some information on that."
 ---
