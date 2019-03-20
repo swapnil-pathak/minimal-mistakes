@@ -4,7 +4,6 @@ layout: single
 excerpt: "Blog with all the security stuff"
 permalink: /security_blog.html
 ---
-<h1>Posts</h1>
 <div class="newpost mb-4">
   <h3>HackTheBox Writeups</h3>
 
