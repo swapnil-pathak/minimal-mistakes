@@ -1,7 +1,7 @@
 ---
-layout: archive
-permalink: /categories/
 title: "Posts by Category"
+layout: categories
+permalink: /categories/
 ---
 
 {% include base_path %}
