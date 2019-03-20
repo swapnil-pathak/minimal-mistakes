@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: https://swapnil-pathak.github.io/minimal-mistakes
-  - title: "Blog"
-    url: https://swapnil-pathak.github.io/minimal-mistakes/security_blog.html
+  - title: "Categories"
+    url: https://swapnil-pathak.github.io/minimal-mistakes/categories/
   - title: "About"
     url: https://swapnil-pathak.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
