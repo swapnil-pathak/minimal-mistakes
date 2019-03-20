@@ -1,7 +1,7 @@
 ---
-title: "Posts by Tag"
+layout: archive
 permalink: /tags/
-layout: tags
+title: "Posts by Tags"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
