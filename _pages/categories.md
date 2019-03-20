@@ -1,5 +1,6 @@
 ---
 layout: categories
+classes: wide
 title: "Posts by Category"
 permalink: /categories/
 description: "Posts listed by Category"
