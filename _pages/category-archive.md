@@ -1,8 +1,9 @@
 ---
-title: "Posts by Category"
-layout: categories
+layout: archive
 permalink: /categories/
+title: "Posts by Category"
 ---
+
 {% include base_path %}
 {% include group-by-array collection=site.posts field="categories" %}
 
