@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title:  "Access"
 date: 2019-03-11
 categories:

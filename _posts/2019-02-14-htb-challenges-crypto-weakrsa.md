@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title:  "Weak RSA"
 date: 2019-02-14
 categories:

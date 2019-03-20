@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title:  "HTB Invite code"
 date: 2019-02-01
 categories:

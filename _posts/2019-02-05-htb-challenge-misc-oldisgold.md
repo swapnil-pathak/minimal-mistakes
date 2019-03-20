@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title:  "0ld is g0ld"
 date: 2019-02-05
 categories:

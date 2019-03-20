@@ -1,5 +1,6 @@
 ---
-layout:	single
+layout: single
+classes: wide
 title:  "You can do it!"
 date: 2019-02-14
 categories:
