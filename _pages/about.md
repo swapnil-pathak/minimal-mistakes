@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: archive
+classes: wide
+author_profile: true
 title: About
 permalink: /about/
 ---
