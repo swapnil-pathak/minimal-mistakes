@@ -1,7 +1,8 @@
 ---
 title:  "Access"
 date: 2019-03-11
-categories: [hackthebox]
+categories:
+  - hackthebox
 tags:	[machines, windows, easy]
 excerpt:  "This was my first ever machine on HTB. Took me around 3 days to figure this out (I was just starting!). This box touches basic misconfiguration in Windows based servers and is a good starter to your adventure in penetration testing with hackthebox."
 ---

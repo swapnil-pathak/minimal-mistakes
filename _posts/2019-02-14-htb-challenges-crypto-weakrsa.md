@@ -1,7 +1,8 @@
 ---
 title:  "Weak RSA"
 date: 2019-02-14
-categories: [hackthebox]
+categories:
+  - hackthebox
 tags:	[challenges, crypto]
 excerpt:  "Breaking the infamous RSA algorithm. It has been the gold standard for public-key cryptography. There's a catch though, if you implement it badly, your ciphertext is no longer safe. Given a few minutes and a bit of RSA knowledge should do the trick for this challenge. Read here for more information on this."
 ---

@@ -1,7 +1,8 @@
 ---
 title:  "You can do it!"
 date: 2019-02-14
-categories: [hackthebox]
+categories:
+  - hackthebox
 tags:	[challenges, crypto]
 excerpt:  "Cryptography is an art of hiding data in plain sight. This challenge presents you with the easiest way to obfuscate your data. Visit this section to learn more."
 ---
