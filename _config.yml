@@ -65,7 +65,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true #, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true #, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -240,7 +240,7 @@ jekyll-archives:
 compress_html:
   clippings: all
   ignore:
-    envs: development
+    envs: production
 
 
 # Defaults
@@ -252,7 +252,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
